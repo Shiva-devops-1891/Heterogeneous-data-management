@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DbConnection</servlet-name>
+    <servlet-class>DB.DbConnection</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DbQueries</servlet-name>
+    <servlet-class>DB.DbQueries</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>controller.Register</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>controller.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Upload</servlet-name>
+    <servlet-class>controller.Upload</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadForm</servlet-name>
+    <servlet-class>controller.UploadForm</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Download</servlet-name>
+    <servlet-class>controller.Download</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+  <servlet>
+  	<display-name>JAX-RS REST Servlet</display-name>
+  	<servlet-name>JAX-RS REST Servlet</servlet-name>
+  	<servlet-class>
+  		com.sun.jersey.spi.container.servlet.ServletContainer
+  	</servlet-class>
+  	<load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FileUpload</servlet-name>
+    <servlet-class>controller.FileUpload</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>newser</servlet-name>
+    <servlet-class>controller.newser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Upload1</servlet-name>
+    <servlet-class>controller.Upload1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FileUpload1</servlet-name>
+    <servlet-class>controller.FileUpload1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadFile</servlet-name>
+    <servlet-class>controller.UploadFile</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Compare</servlet-name>
+    <servlet-class>controller.Compare</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>generateHash</servlet-name>
+    <servlet-class>controller.generateHash</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BindFile</servlet-name>
+    <servlet-class>controller.BindFile</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deduplicate</servlet-name>
+    <servlet-class>controller.deduplicate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GlobalServer</servlet-name>
+    <servlet-class>controller.GlobalServer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FinalUpload</servlet-name>
+    <servlet-class>controller.FinalUpload</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OwnerMapping</servlet-name>
+    <servlet-class>controller.OwnerMapping</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OwnerCloudMapping</servlet-name>
+    <servlet-class>controller.OwnerCloudMapping</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Delete</servlet-name>
+    <servlet-class>controller.Delete</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+  	<servlet-name>JAX-RS REST Servlet</servlet-name>
+  	<url-pattern>/services/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DbConnection</servlet-name>
+    <url-pattern>/DbConnection</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DbQueries</servlet-name>
+    <url-pattern>/DbQueries</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Upload</servlet-name>
+    <url-pattern>/Upload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadForm</servlet-name>
+    <url-pattern>/UploadForm</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Download</servlet-name>
+    <url-pattern>/Download</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileUpload</servlet-name>
+    <url-pattern>/FileUpload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>newser</servlet-name>
+    <url-pattern>/newser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Upload1</servlet-name>
+    <url-pattern>/Upload1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileUpload1</servlet-name>
+    <url-pattern>/FileUpload1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadFile</servlet-name>
+    <url-pattern>/UploadFile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Compare</servlet-name>
+    <url-pattern>/Compare</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>generateHash</servlet-name>
+    <url-pattern>/generateHash</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BindFile</servlet-name>
+    <url-pattern>/BindFile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deduplicate</servlet-name>
+    <url-pattern>/deduplicate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GlobalServer</servlet-name>
+    <url-pattern>/GlobalServer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FinalUpload</servlet-name>
+    <url-pattern>/FinalUpload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OwnerMapping</servlet-name>
+    <url-pattern>/OwnerMapping</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OwnerCloudMapping</servlet-name>
+    <url-pattern>/OwnerCloudMapping</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Delete</servlet-name>
+    <url-pattern>/Delete</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

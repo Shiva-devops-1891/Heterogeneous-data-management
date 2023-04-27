@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Deduplicationn"
+  id="myeclipse.1578353521311"
+  context-root="/Deduplicationn"
+  j2ee-spec="5.0"
+  archive="Deduplicationn.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

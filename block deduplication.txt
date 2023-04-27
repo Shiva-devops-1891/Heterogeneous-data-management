@@ -1,0 +1,20 @@
+def find_common_blocks(file1_path, file2_path):
+    with open(file1_path, 'rb') as file1, open(file2_path, 'rb') as file2:
+        data1 = file1.read()
+        data2 = file2.read()
+    common_blocks = []
+    for i in range(0, len(data1), 1024):
+        block1 = data1[i:i+1024]
+        for j in range(0, len(data2), 1024):
+            print(block1)
+            block2 = data2[j:j+1024]
+            print(block2)
+            if block1 == block2:
+                common_blocks.append(block1)
+                break
+    return common_blocks
+
+file1_path = "C:\\Users\\shiva\\Documents\\block 1.txt"
+file2_path = "C:\\Users\\shiva\\Documents\\block 2.txt"
+common_blocks = find_common_blocks(file1_path, file2_path)
+print(common_blocks)

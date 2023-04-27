@@ -1,0 +1,20 @@
+import hashlib
+path="C:\\Users\\shiva\\Downloads\\girl1.jpg"
+with open(path,'rb') as opened_file:
+    content=opened_file.read()
+    md5=hashlib.md5()
+    
+    md5.update(content)
+print(md5.hexdigest())
+path1="C:\\Users\\shiva\\Downloads\\girl2.jpg"
+with open(path1,'rb') as opened_file1:
+    content1=opened_file1.read()
+    md51=hashlib.md5()
+    
+    md51.update(content1)
+print(md51.hexdigest())
+if md5.hexdigest()==md51.hexdigest():
+    print("deduplicated file found")
+else:
+    print("deduplicated file  not found")
+    
